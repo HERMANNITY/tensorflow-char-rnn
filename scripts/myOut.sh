@@ -6,6 +6,6 @@ python train.py \
        --num_layers=2 \
        --model="rnn" \
        --batch_size=100 \
-       --output_dir=myOut
+       --output_dir=myOut \
 
-tensorboard --logdir=small/tensorboard_log/ --port=6008
+tensorboard --logdir=mine/tensorboard_log/ --port=6008
