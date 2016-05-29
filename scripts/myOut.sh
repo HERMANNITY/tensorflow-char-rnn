@@ -8,4 +8,4 @@ python train.py \
        --batch_size=100 \
        --output_dir=myOut \
 
-tensorboard --logdir=mine/tensorboard_log/ --port=6008
+tensorboard --logdir=mine/tensorboard_log/ --port=6007
