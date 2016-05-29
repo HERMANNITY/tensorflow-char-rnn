@@ -1,0 +1,19 @@
+{
+  "best_model": "pretrained_models/shakespeare/best_model/model-28805", 
+  "best_valid_ppl": 4.014207363128662, 
+  "encoding": "utf-8", 
+  "latest_model": "pretrained_models/shakespeare/save_model/model-41150", 
+  "params": {
+    "batch_size": 50, 
+    "embedding_size": 0, 
+    "hidden_size": 128, 
+    "learning_rate": 0.002, 
+    "max_grad_norm": 5.0, 
+    "num_layers": 2, 
+    "num_unrollings": 100, 
+    "vocab_size": 67,
+    "model": "lstm"
+  }, 
+  "test_ppl": 4.48007345199585, 
+  "vocab_file": "pretrained_models/shakespeare/vocab.json"
+}
