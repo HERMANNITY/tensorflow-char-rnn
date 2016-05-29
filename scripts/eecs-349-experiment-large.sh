@@ -1,6 +1,6 @@
 python train.py \
        --data_file=data/my.txt \
-       --dropout=0.5 \
+       --dropout=0.3 \
        --num_epochs=50 \
        --hidden_size=128 \
        --num_layers=2 \
