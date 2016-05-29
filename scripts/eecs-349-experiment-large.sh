@@ -1,11 +1,11 @@
 python train.py \
-       --data_file=data/eecs349-data.txt \
+       --data_file=data/my.txt \
        --dropout=0.5 \
        --num_epochs=50 \
-       --hidden_size=256 \
-       --num_layers=1 \
+       --hidden_size=128 \
+       --num_layers=2 \
        --model="rnn" \
-       --batch_size=64 \
-       --output_dir=large \
+       --batch_size=100 \
+       --output_dir=myOut \
 
-tensorboard --logdir=large/tensorboard_log/ --port=6007
+tensorboard --logdir=mine/tensorboard_log/ --port=6007
