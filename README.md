@@ -1,3 +1,4 @@
+# This is a project of EECS349 Machine Learning class
 # TensorFlow-Char-RNN
 A TensorFlow implementation of Andrej Karpathy's [Char-RNN](https://github.com/karpathy/char-rnn), a character level language model using multilayer Recurrent Neural Network (RNN, LSTM or GRU). See his article [The Unreasonable Effectiveness of Recurrent Neural Network](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) to learn more about this model. 
 
